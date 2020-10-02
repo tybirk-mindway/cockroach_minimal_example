@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
 
-USE_SQLITE = True
+USE_SQLITE = False
 connect_args = {}
 
 if USE_SQLITE:

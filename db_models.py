@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Date, Float, DateTime
 from db import Base, USE_SQLITE
 from sqlalchemy.dialects.postgresql import UUID
 
-USE_SQLITE = True
+USE_SQLITE = False
 
 class Transactions(Base):
     __tablename__ = "transaction_data"
