@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+    data_insertion:
+        build: .
+        env_file:
+            - variables.env
